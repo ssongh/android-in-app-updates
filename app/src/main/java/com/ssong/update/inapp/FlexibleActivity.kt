@@ -32,7 +32,7 @@ class FlexibleActivity : AppCompatActivity(), InstallStateUpdatedListener {
 
         appUpdateManager.appUpdateInfo.addOnSuccessListener {
             if (it.updateAvailability() == UpdateAvailability.UPDATE_AVAILABLE
-                && it.isUpdateTypeAllowed(AppUpdateType.IMMEDIATE)) {
+                && it.isUpdateTypeAllowed(AppUpdateType.FLEXIBLE)) {
                 // 업데이트 요청.
                 appUpdateManager.startUpdateFlowForResult(
                     it,

@@ -22,6 +22,7 @@ class ImmediateActivity : AppCompatActivity() {
 
         appUpdateManager = AppUpdateManagerFactory.create(this)
 
+        // 강제업데이트 (업데이트 UI 종료하여도 계속 노출) 시에는 주석처리
         appUpdateManager.appUpdateInfo.addOnSuccessListener {
             if (it.updateAvailability() == UpdateAvailability.UPDATE_AVAILABLE
                 && it.isUpdateTypeAllowed(AppUpdateType.IMMEDIATE)) {
@@ -52,6 +53,20 @@ class ImmediateActivity : AppCompatActivity() {
                 )
             }
         }
+
+        // 강제업데이트 (업데이트 UI 종료하여도 계속 노출)
+//        appUpdateManager.appUpdateInfo.addOnSuccessListener {
+//            if (it.updateAvailability() == UpdateAvailability.UPDATE_AVAILABLE
+//                && it.isUpdateTypeAllowed(AppUpdateType.IMMEDIATE)) {
+//                // 업데이트 요청.
+//                appUpdateManager.startUpdateFlowForResult(
+//                    it,
+//                    AppUpdateType.IMMEDIATE,
+//                    this,
+//                    reqUpdateCode
+//                )
+//            }
+//        }
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
