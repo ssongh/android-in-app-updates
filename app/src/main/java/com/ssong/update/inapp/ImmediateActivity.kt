@@ -41,6 +41,7 @@ class ImmediateActivity : AppCompatActivity() {
         super.onResume()
 
         // 업데이트 다운로드 완료 후 설치하지 않았을 경우 설치 유도
+        // 강제업데이트 (업데이트 UI 종료하여도 계속 노출) 시에는 주석처리
         appUpdateManager.appUpdateInfo.addOnSuccessListener {
             // 업데이트 다운로드&설치 진행 중 onBackPressed 동작 시 다운로드&설치 페이지를 다시 띄워줌.
             // 업데이트 다운로드 완료 후 자동적(즉각적)으로 설치됨.

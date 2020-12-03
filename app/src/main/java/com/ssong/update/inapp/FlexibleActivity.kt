@@ -7,13 +7,11 @@ import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.play.core.appupdate.AppUpdateManager
 import com.google.android.play.core.appupdate.AppUpdateManagerFactory
-import com.google.android.play.core.appupdate.testing.FakeAppUpdateManager
 import com.google.android.play.core.install.InstallState
 import com.google.android.play.core.install.InstallStateUpdatedListener
 import com.google.android.play.core.install.model.AppUpdateType
 import com.google.android.play.core.install.model.InstallStatus
 import com.google.android.play.core.install.model.UpdateAvailability
-
 
 
 class FlexibleActivity : AppCompatActivity(), InstallStateUpdatedListener {
@@ -86,8 +84,8 @@ class FlexibleActivity : AppCompatActivity(), InstallStateUpdatedListener {
         }
     }
 
-    override fun onStateUpdate(state: InstallState?) {
-        if (state?.installStatus() == InstallStatus.DOWNLOADED) {
+    override fun onStateUpdate(state: InstallState) {
+        if (state.installStatus() == InstallStatus.DOWNLOADED) {
             // 업데이트 다운로드가 완료됨, 다운로드만 완료된 것으로 설치가 필요함.
             // 유저에게 다운로드를 알려준 후 입력을 받아 설치를 진행함.
             popupSnackBarForCompleteUpdate()
