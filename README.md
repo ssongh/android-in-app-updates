@@ -18,3 +18,7 @@
 ### 2. Immediate update 
 ![Immediate update-Flow Chart](https://user-images.githubusercontent.com/50819260/101276075-ccf02880-37ed-11eb-8d5f-5c16653ea4ca.png)
 <br>
+
+### 3. Comparison table
+![Comparison table](https://user-images.githubusercontent.com/50819260/101276376-83a0d880-37ef-11eb-8ab1-95803bd98173.png)
+<br>
