@@ -9,7 +9,10 @@ Android-in-app-updates
   Active Build Variant : release
   
   VersionCode : 1
-
+<br>
 
 * Flexible update 
 ![Flexible update-Flow Chart](https://user-images.githubusercontent.com/50819260/101275959-3facd400-37ed-11eb-9a58-45e66496acea.png)
+<br>
+
+* Immediate update 
