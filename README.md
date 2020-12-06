@@ -3,6 +3,7 @@
 
 * App Download : https://play.google.com/store/apps/details?id=com.ssong.update.inapp
 * Test APK : https://www.dropbox.com/s/31e7526b277g2na/in-app-update-1203.apk?dl=1
+* Developer : https://developer.android.com/guide/playcore/in-app-updates?hl=ko
 
 * 테스트 환경 
 
