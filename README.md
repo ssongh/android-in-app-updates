@@ -12,7 +12,11 @@ Android-in-app-updates
 <br>
 
 * Flexible update 
+
 ![Flexible update-Flow Chart](https://user-images.githubusercontent.com/50819260/101275959-3facd400-37ed-11eb-9a58-45e66496acea.png)
 <br>
 
 * Immediate update 
+
+![Immediate update-Flow Chart](https://user-images.githubusercontent.com/50819260/101276075-ccf02880-37ed-11eb-8d5f-5c16653ea4ca.png)
+<br>
