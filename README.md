@@ -13,11 +13,11 @@
 <br>
 
 ### 1. Flexible update 
-![Flexible update-Flow Chart](https://user-images.githubusercontent.com/50819260/101275959-3facd400-37ed-11eb-9a58-45e66496acea.png)
+![flexible](https://user-images.githubusercontent.com/50819260/103492410-04dea000-4e6e-11eb-898a-c08ebb4aa618.png)
 <br>
 
 ### 2. Immediate update 
-![Immediate update-Flow Chart](https://user-images.githubusercontent.com/50819260/101276075-ccf02880-37ed-11eb-8d5f-5c16653ea4ca.png)
+![immediate](https://user-images.githubusercontent.com/50819260/103492418-0740fa00-4e6e-11eb-8894-94c8a99db9b3.png)
 <br>
 
 ### 3. Comparison table
