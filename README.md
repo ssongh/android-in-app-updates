@@ -21,5 +21,5 @@
 <br>
 
 ### 3. Comparison table
-![Comparison table](https://user-images.githubusercontent.com/50819260/101276376-83a0d880-37ef-11eb-8ab1-95803bd98173.png)
+![Comparison table](https://user-images.githubusercontent.com/83203060/132617496-6704b7ba-a04a-48a5-985f-46f308751c6a.png)
 <br>
